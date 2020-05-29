@@ -25,13 +25,26 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  .Header-back {
+    flex: 0 0 136px;
+    margin-left: 24px;
+  }
+
+  .title {
+    flex: 1;
+    text-align: center;
+  }
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Page-container {
+  margin: 24px;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,8 @@
+.micro-appear {
+  opacity: 0;
+}
+
+.micro-appear.micro-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
