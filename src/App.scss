@@ -1,3 +1,11 @@
+body {
+  background: #282c34;
+}
+
+* {
+  color: #dddddd;
+}
+
 .App {
   text-align: center;
 }
@@ -14,10 +22,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -35,4 +41,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.Link-item {
+  display: block;
+  margin: 24px;
 }
