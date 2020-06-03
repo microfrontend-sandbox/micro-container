@@ -1,0 +1,21 @@
+{
+  "orders": [
+    {
+      "id": 123,
+      "products": [
+        {
+          "id": 1,
+          "name": "Hat",
+          "description": "Put this on your head.",
+          "price": 5
+        },
+        {
+          "id": 4,
+          "name": "Shoes",
+          "description": "Put these on your feet.",
+          "price": 119.99
+        }
+      ]
+    }
+  ]
+}

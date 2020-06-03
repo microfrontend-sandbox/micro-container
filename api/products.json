@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hat",
+      "description": "Put this on your head.",
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "Shirt",
+      "description": "Put this on your torso.",
+      "price": 10.5
+    },
+    {
+      "id": 3,
+      "name": "Pants",
+      "description": "Put this on your legs.",
+      "price": 29.99
+    },
+    {
+      "id": 4,
+      "name": "Shoes",
+      "description": "Put these on your feet.",
+      "price": 119.99
+    }
+  ]
+}
