@@ -9,23 +9,31 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@types/react-transition-group": "^4.4.0",
+    "@reduxjs/toolkit": "^1.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-router": "^2.1.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/history": "^4.7.6",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.9",
     "@types/react-router": "^5.1.7",
     "@types/react-router-dom": "^5.1.5",
+    "@types/react-transition-group": "^4.4.0",
+    "@types/redux": "^3.6.0",
+    "@types/redux-router": "^1.0.45",
     "customize-cra": "^0.9.1",
     "node-sass": "^4.14.1",
     "react-app-rewire-micro-frontends": "^0.0.1",
