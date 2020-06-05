@@ -1,19 +1,21 @@
 import React, { FC } from 'react';
-import './App.scss';
 import { Route, RouteComponentProps, Switch } from "react-router";
 import { Browse } from "./Browse/Browse";
-import { BrowserRouter } from "react-router-dom";
 import { Product } from "./Product/Product";
 import { Header } from "./Header/Header";
 import { MicroFrontend } from "./MicroFrontend/MicroFrontend";
+import { ConnectedRouter } from 'connected-react-router';
+import { history } from './utils/historyUtils';
+import { config } from './config';
+import './App.scss';
 
 const Orders: FC<RouteComponentProps> = ({ history }) => {
-  return <MicroFrontend name="Orders" host="http://localhost:5000" history={history}/>;
+  return <MicroFrontend name="Orders" host={config.order.host} history={history}/>;
 };
 
 function App() {
   return (
-    <BrowserRouter>
+    <ConnectedRouter history={history}>
       <>
         <Header>Micro Frontend</Header>
         <div className="Page-container">
@@ -24,7 +26,7 @@ function App() {
           </Switch>
         </div>
       </>
-    </BrowserRouter>
+    </ConnectedRouter>
   );
 }
 

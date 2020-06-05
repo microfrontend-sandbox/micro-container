@@ -4,6 +4,8 @@ import { History, LocationState } from 'history';
 import { CSSTransition } from 'react-transition-group';
 
 import './MicroFrontend.scss';
+import store from '../store';
+import { config } from '../config';
 
 export interface MicroProps {
   name: string;
@@ -41,7 +43,7 @@ export const MicroFrontend: FC<MicroProps> = ({
   });
 
   const renderMicroFrontend = () => {
-    (window as any)[`render${name}`](`${name}-container`, history);
+    (window as any)[`render${name}`](`${name}-container`, history, store, config);
   };
 
   return <CSSTransition
